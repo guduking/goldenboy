@@ -1,0 +1,62 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lugrasimo&family=Yesteryear&display=swap" rel="stylesheet">
+
+@font-face {
+  font-family: 'Imoger';
+  src: url('https://thecozycorgi.github.io/fonts/imoger.otf') format('opentype');
+}
+
+/* portada kyrios */
+.kyrios-p {
+  width: fit-content;
+  margin: 10px auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 5px 5px 5px;
+}
+
+.kyrios-p > div {
+  width: 750px;
+  height: 350px;
+  background: var(--image) center;
+  background-size: cover;
+}
+
+/* fondo y estilo */
+
+.kyrios-p {
+  --p: #926f44;
+  background: var(--p);
+}
+
+.kyrios-p > div {
+  filter: grayscale(0.95) brightness(0.85);
+  mix-blend-mode: overlay;
+}
+
+.kyrios-p span {
+  position: absolute;
+  font: 14px / 16px "Cinzel";
+  text-transform: uppercase;
+  color: #dfdcdc;
+  display: flex;
+  flex-direction: column;
+  left: 260px;
+  align-items: center;
+  text-shadow: 1px 1px #333;
+  opacity: 0.4;
+  width: 75%;
+}
+
+.kyrios-p em {
+  font-family: Imoger;
+text-transform: lowercase;
+  font-size: 35px;
+  color: #dfdcdc !important;
+  mix-blend-mode: exclusion;
+  opacity: 0.3;
+}
