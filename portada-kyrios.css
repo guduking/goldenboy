@@ -30,7 +30,7 @@
 
 .kyrios-p {
   --p: #926f44;
-  background: var(--three);
+  background: var(--p);
 }
 
 .kyrios-p > div {
